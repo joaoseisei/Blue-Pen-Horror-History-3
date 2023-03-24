@@ -2580,7 +2580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ba39df249d2424e9ef6111b6f7aef0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  angulo: 90
 --- !u!1 &461618776
 GameObject:
   m_ObjectHideFlags: 0
@@ -10336,6 +10335,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2048916818}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1751446563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12682,6 +12693,7 @@ MonoBehaviour:
   playerListContent: {fileID: 1631597108}
   roomListItemPrefab: {fileID: 2321554179350944787, guid: 7b177a7900586b9468663832ee3987ce, type: 3}
   playerListItemPrefab: {fileID: 660393301199220591, guid: c600b75a60925c047a2e2f1ef0518010, type: 3}
+  startgameb: {fileID: 1751446560}
 --- !u!114 &2048916819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13164,7 +13176,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 40}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2081308867
